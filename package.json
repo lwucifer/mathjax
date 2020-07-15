@@ -1,0 +1,24 @@
+{
+  "name": "UpBeat",
+  "version": "1.0.0",
+  "description": "UpBeat",
+  "author": "Trung Nguyen",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/svg": "^0.1.6",
+    "hooper": "^0.3.4",
+    "node-sass": "^4.13.1",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^8.0.2",
+    "vue-slick-carousel": "^1.0.6",
+    "vue-wow": "^1.2.0"
+  },
+  "devDependencies": {}
+}

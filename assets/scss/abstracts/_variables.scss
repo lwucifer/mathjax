@@ -1,0 +1,155 @@
+// Colors
+$color-green: #569E2D !default;
+$color-red: #E9446A !default;
+$color-blue: #1481FE !default;
+$color-yellow: #FFCA56 !default;
+$color-pink: #EF72C4 !default;
+$color-purple: #A671FE !default;
+$color-dark: #222323 !default;
+
+$color-primary: #F95703 !default;
+
+$color-brand: $color-green !default;
+$color-secondary: $color-red !default;
+$color-blue: $color-blue !default;
+// $color-info: 
+$color-success: lighten($color-green, 10) !default;
+$color-error: $color-red !default;
+$color-warning: darken($color-yellow, 10) !default;
+
+//
+$color-text: $color-dark !default;
+$color-text-sub: #454545 !default;
+$color-text-gray: #666666 !default;
+$color-text-gray-2: #CCCCCC !default;
+$color-text-white: #fff !default;
+
+$color-image-placeholder: #f6f6f6 !default;
+$color-border: #EEEEEE !default;
+$color-active: $color-red !default;
+$color-disabled: #CCCCCC !default;
+
+
+$colors: (
+    primary: $color-primary,
+    secondary: $color-red,
+    // info: ,
+    success: lighten($color-green, 10),
+    error: $color-red,
+    warning: darken($color-yellow, 10),
+    disabled: $color-disabled
+) !default;
+
+$text-colors: (
+    primary: $color-primary,
+    secondary: $color-secondary,
+    // info: ,
+    success: $color-green,
+    error: $color-error,
+    warning: $color-warning,
+    base: $color-text,
+    sub: $color-text-sub,
+    gray: $color-text-gray,
+    gray-2: $color-text-gray-2,
+    white: #fff,
+    black: #000,
+    active: $color-active,
+    disabled: $color-disabled
+) !default;
+
+$bg-colors: (
+    primary: $color-primary,
+    secondary: $color-secondary,
+    // info: ,
+    success: $color-success,
+    error: $color-error,
+    warning: $color-warning,
+    gray: #FBFCFE,
+    input-gray: #FBFBFB,
+    white: #fff,
+    black: #000
+) !default;
+
+
+// Fonts
+$font-base: "Google Sans", sans-serif !default;
+$font-size-base: 1.8rem !default;
+$font-size-caption: 1.4rem !default;
+$line-height-base: (19/14) !default;
+
+
+// Typo
+$text-size: (
+    heading-1: 4.4rem,
+    heading-2: 3.2rem,
+    heading-3: 2.8rem,
+    heading-4: 2.6rem,
+    heading-5: 2.4rem,
+    heading-6: 2.2rem,
+    subheading: 1.4rem,
+    body-1: 1.8rem,
+    body-2: 1.6rem,
+    title: 2.8rem,
+    caption: 1.4rem
+) !default;
+
+// 
+$border-radius-common: 12px !default;
+
+// use in include-media mixin
+$breakpoints: (
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+) !default;
+
+// Grid options - to make grid
+$grid: (
+    container: (
+        gap: 15,
+        responsive: (
+            sm: 540,
+            md: 720,
+            lg: 962,
+            xl: 1200
+        )
+    ),
+    columns: (
+        max: 12,
+        gap: 30
+    ),
+    breakpoints: (
+        default: 0,
+        sm: 576,
+        md: 768,
+        lg: 992,
+        xl: 1200
+    )
+) !default;
+
+$spacer: 1rem !default;
+$spacers: (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 2),
+    5: ($spacer * 3),
+    6: ($spacer * 4),
+    auto: auto
+) !default;
+
+$xy-border: (
+    top: t,
+    right: r,
+    bottom: b,
+    left: l,
+    all: a
+) !default;
+
+$z-index: (
+    modal: 1000,
+    header: 99,
+    dropdown: 9
+) !default;

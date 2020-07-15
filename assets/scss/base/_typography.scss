@@ -1,0 +1,75 @@
+html {
+    font-size: 62.5%;
+    font-family: $font-base;
+}
+
+body {
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    color: $color-text;
+    margin: 0;
+    padding: 0;
+}
+
+
+// Text size
+@each $name, $font-size in $text-size {
+    .#{$name} {
+        font-size: $font-size !important;
+    }
+}
+
+
+// Text case
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+
+// Align
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+// Font weight
+.font-weight-light {
+    font-weight: 300;
+}
+
+.font-weight-normal {
+    font-weight: 400 !important;
+}
+
+.font-weight-semi-bold {
+    font-weight: 600 !important;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+//Wrap text
+.nowrap {
+    white-space: nowrap;
+}
+
+///
+.d-flex{
+    display: flex;
+  } 
+  .d-flex-center {
+    display: flex;
+    align-items: center;
+  } 
+  
+  .content-center {
+    justify-content: center;
+  }
